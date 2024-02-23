@@ -15,3 +15,18 @@ let moveZeroes = function (nums) {
     }
   }
 };
+
+let nums = [0, 1, 0, 3, 12];
+moveZeroes(nums);
+
+// var moveZeroes = function (nums) {
+//     let w = 0;
+//     let n = nums.length
+//     for(let r = 0; r<n; r++){
+//         let val = nums[r]
+//         nums[r] = 0
+//         if(nums[r]!=0){
+//             nums[w++] = val
+//         }
+//     }
+// };
